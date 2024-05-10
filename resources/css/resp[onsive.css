@@ -1,0 +1,90 @@
+@media only screen and (max-width:412px) {
+
+    /* header-section */
+    .main-nav{
+        display: none;
+    }
+    .mobile-menu span{
+        display: block;
+    }
+
+    .hero-text-box{
+     padding-left: 9rem;
+     padding-top: 5rem;
+    }
+    .h1-header{
+        font-size: 3.5rem;
+    }
+    .p-adjtv{
+        font-size: 1.5rem;
+        letter-spacing: .3rem;
+    }
+    header{
+        /* background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+        height: 40vh;
+    }
+    .home-icons{
+        font-size: 1rem;
+    }
+
+    /* about-section */
+    .about-section{
+        display: inline-block;
+    }
+    .img-about{
+        height: 22rem;
+        width: 25rem;
+        margin-top: 0;
+    }
+    .about-p1{
+        margin-top: 4rem;
+        padding-left: 5rem;
+        padding-bottom: 1rem;
+    }
+    .about-p2{
+        margin-top: 2rem;
+        width: 100%;
+    }
+    .h2-about{
+        padding-left:5rem;
+    }
+
+      /* service-section */
+      .main-div-service{
+        display:inline-block;
+    }
+    .service-p1{
+        margin-top:0rem;
+    }
+    .p-skill{
+        width: 150%;
+        margin-left: 5rem;
+    }
+    .h2-skill{
+        margin-left: 6rem;
+    }
+    
+     /* skill section */
+     .main-div-skill{
+        display: inline-block;
+     }
+     .skill-des2{
+        width: 70%;
+        text-align: left;
+        margin-top: 5rem;
+        margin-left: 5rem;
+     }
+
+      /* contact-section */
+      .btn-submit{
+     margin-left: 22%;
+     margin-top: 10%;
+     padding: 0.5rem 1rem;
+     font-size: smaller;
+      }
+      .fon{
+        font-size: .5rem;
+      }
+}
